@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'Moms_typewriter';
+  src: url('./assets/font/Moms_typewriter.ttf') format('truetype');
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #282c34;
+  color:antiquewhite;
+  font-family: 'Centra', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+
+} 
+
+
+nav.navbar {
+  padding: 18px 0;
+  position: inherit;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+  transition: 0.32 ease-in-out;
+}
+
+
+
+nav.navbar.scrolled {
+  padding: 0px 0;
+  background-color: black;
+}
+
+nsv.navbar a.navbar-brand {
+  width: 9%
+
+}
+
+nav.navbar .navbar-nav a.nav-link.navbar-link:hover, 
+nav.navbar .navbar-nav a.nav-link.navbar-link.active {
+  opacity: 1;
+}
+
+span.navbar-text {
+  display: flex;
+  align-items: center;
+}
+
+
+span.navbar-text .social-icon a img,
+span.logo a img {
+  width: 20px; /* Smaller size for the images */
+  height: 20px; /* Maintain the aspect ratio by setting the height */
+  margin: 0 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Optional: Add hover effect if desired */
+span.navbar-text .social-icon a img:hover,
+span.logo a img:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.navbar-brand img {
+  width: 50px;
+  height: auto; 
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-brand img:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

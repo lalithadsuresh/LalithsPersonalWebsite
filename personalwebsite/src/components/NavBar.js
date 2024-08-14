@@ -68,17 +68,6 @@ export const NavBar = () => {
                         >
                             Projects
                         </Nav.Link>
-                        <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">
-                                Another action
-                            </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">
-                                Separated link
-                            </NavDropdown.Item>
-                        </NavDropdown>
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
@@ -93,9 +82,6 @@ export const NavBar = () => {
                             </a>
                         </div>
                     </span>
-                    <button className="vvd" onClick={() => console.log('connect')}>
-                        <span>Let's connect</span>
-                    </button>
                 </Navbar.Collapse>
             </Container>
         </Navbar>

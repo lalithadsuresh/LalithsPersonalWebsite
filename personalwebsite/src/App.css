@@ -41,13 +41,15 @@ nav.navbar {
   z-index: 9999;
   transition: 0.32 ease-in-out;
   font-family: 'Moms_typewriter';
+  background-color: white;
 
 }
 
 
 nav.navbar.scrolled {
+  transition: 0.5s ease-in-out;
   padding: 0px 0;
-  background-color: black;
+  background-color: white;
 }
 
 nav.navbar a.navbar-brand {

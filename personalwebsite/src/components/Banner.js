@@ -3,6 +3,9 @@ import {Container, Row, Col} from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.svg";
 
+
+
+
 export const Banner = () => {
 
     const [loopNum, setLoopNum] = useState(0);
@@ -28,6 +31,7 @@ export const Banner = () => {
         let updatedText = isDeleting 
             ? fullText.substring(0, fullText.length - 1) 
             : fullText.substring(0, fullText.length + 1);
+
         
         setText(updatedText);
         if (isDeleting) {
@@ -53,14 +57,14 @@ export const Banner = () => {
                 <Row className="align-items-center">
                     <Col xs = {12} md={6} xl={7}>
                         <span classsName="tagline">
-                            Welcome to my Portfolio!
+                            Hi! My name is Lalith.
                         </span>
-                        <h1>{'Hi Am Webdecoded'}<span className = "wrap"> Web Developer</span></h1>
+                        <h1>{'I am a Software Developer, UI/UX Designer, and Artist'}<span className = "wrap"></span></h1>
                         <p> {text} </p>
-                        <button onClick={() => console.log('connect')}> Let's connect </button>
+                        <button onClick={() => console.log('connect')}> Let's connect <ArrowRightCircle size = {25}></ArrowRightCircle> </button>
                     </Col>
-                    <Col xs = {12} md = {6} xl = {5}>
-                        <img src={headerImg} alt="Header Img"></img>
+                    <Col xs={12} md={6} xl={5}>
+                        <img src={headerImg} alt="Header Img" className="small-header-img" />
                     </Col>
 
                 </Row>

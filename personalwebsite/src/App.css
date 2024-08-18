@@ -406,8 +406,7 @@ span.logo a img:hover {
 }
 
 .footer {
-  padding: 0 0 50px 0;
-  background-image: url('assets/img/footer-bg.png');
+  padding: 50px 0 0px 0;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -416,7 +415,10 @@ span.logo a img:hover {
 
 .footer .logo-img {
   width: 100px; 
-  height: auto; 
+  height: auto;
+  display: block;
+  margin-left: 0; 
+  padding-left: 0;  
 }
 
 

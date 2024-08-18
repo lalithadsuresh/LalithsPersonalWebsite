@@ -1,15 +1,42 @@
-import { Col } from "react-bootstrap";
+import React, { useState } from 'react';
+import { Col } from 'react-bootstrap';
+import Modal from 'react-bootstrap/Modal';
+import Button from 'react-bootstrap/Button';
 
-export const ProjectCard = ({ title, description, imgUrl }) => {
-    return (
-        <Col sm={6} md={4}>
-            <div className="proj-imgbx">
-                <img src={imgUrl} alt={title} />
-                <div className="proj-txtx">
-                    <h4>{title}</h4>
-                    <span>{description}</span>
-                </div>
-            </div>
-        </Col>
-    );
+export const ProjectCard = ({ title, description, imgUrl, modalContent }) => {
+  const [modalShow, setModalShow] = useState(false);
+
+  return (
+    <>
+      <Col sm={6} md={4}>
+        <div className="proj-imgbx" onClick={() => setModalShow(true)}>
+          <img src={imgUrl} alt={title} />
+          <div className="proj-txtx">
+            <h4>{title}</h4>
+            <span>{description}</span>
+          </div>
+        </div>
+      </Col>
+
+      <Modal
+        show={modalShow}
+        onHide={() => setModalShow(false)}
+        size="lg"
+        aria-labelledby="contained-modal-title-vcenter"
+        centered
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="contained-modal-title-vcenter">
+            {title}
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          {modalContent}
+        </Modal.Body>
+        <Modal.Footer>
+          <Button onClick={() => setModalShow(false)}>Close</Button>
+        </Modal.Footer>
+      </Modal>
+    </>
+  );
 };

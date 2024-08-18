@@ -20,8 +20,8 @@ export const ProjectCard = ({ title, description, imgUrl, modalContent }) => {
 
       <Modal
         show={modalShow}
+        size="xl"
         onHide={() => setModalShow(false)}
-        size="lg"
         aria-labelledby="contained-modal-title-vcenter"
         centered
       >

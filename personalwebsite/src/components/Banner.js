@@ -59,7 +59,7 @@ export const Banner = () => {
                         <span classsName="tagline">
                             Hi! My name is Lalith.
                         </span>
-                        <h1>{'I am a Software Developer, UI/UX Designer, and Artist'}<span className = "wrap"></span></h1>
+                        <h1>{'I am a Full Stack Developer, Product Designer, and Artist'}<span className = "wrap"></span></h1>
                         <p> {text} </p>
                         <button onClick={() => console.log('connect')}> Let's connect <ArrowRightCircle size = {25}></ArrowRightCircle> </button>
                     </Col>

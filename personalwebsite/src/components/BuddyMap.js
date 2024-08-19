@@ -3,8 +3,11 @@ import React from 'react';
 export const BuddyMap = () => {
   return (
     <div>
-      <h2>BuddyMap</h2>
-      <p>BuddyMap</p>
+      <p>BuddyMap is an application designed to help users 
+        make personalized weekend plans. COMING SOON.
+
+        Tech Stack: Google Maps API, Javascript, React
+      </p>
     </div>
   );
 };

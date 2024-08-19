@@ -3,8 +3,8 @@ import React from 'react';
 export const Quest = () => {
   return (
     <div>
-      <h2>Quest </h2>
-      <p>Quest</p>
+      <p> UI Mockup for a blind dating app designed using Figma </p>
+      <p>  </p>
     </div>
   );
 };

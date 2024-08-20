@@ -7,7 +7,7 @@ import { Quest } from './Quest';
 import { BuddyMap } from './BuddyMap';  
 import JournalLove2 from '../assets/img/journal-love.png';
 import bannerBackground from '../assets/img/bannerbackground.png';
-import SpiralAlg from '../assets/img/algo-art.png';
+import SpiralAlg from '../assets/img/alg-COVER.gif';
 import BuddyMap2 from '../assets/img/buddymap.png';
 import Quest2 from '../assets/img/quest.png';
 
@@ -15,13 +15,25 @@ import Quest2 from '../assets/img/quest.png';
 
 
 
+
 export const Projects = () => {
 
-  <img 
-        src={JournalLove2}  
-        style={{ width: '1972px', height: '1229px' }} 
-        alt="Journal Love" 
+    <div>
+      <img 
+          src={JournalLove2}  
+          style={{ width: '100%', height: 'auto', maxWidth: '100%' }} 
+          alt="Journal Love" 
+        />
+
+      <img 
+        src={SpiralAlg}  
+        style={{ width: '50px', height: 'auto', maxWidth: '1972px' }} 
+        alt="Another Image Description" 
       />
+    </div>
+
+
+    
 
     
   const projects = [

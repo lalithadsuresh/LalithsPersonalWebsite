@@ -70,17 +70,17 @@ export const NavBar = () => {
                         </Nav.Link>
                     </Nav>
                     <span className="navbar-text">
-                        <div className="social-icon">
-                            <a href="#home">
-                                <img src={navIcon1} alt="Social Icon 1" />
-                            </a>
-                            <a href="#">
-                                <img src={navIcon2} alt="Social Icon 2" />
-                            </a>
-                            <a href="#">
-                                <img src={navIcon3} alt="Social Icon 3" />
-                            </a>
-                        </div>
+                    <div className="social-icon">
+                        <a href="mailto:lalithadityasureshkumar@gmail.com">
+                            <img src={navIcon1} alt="Email Lalith" />
+                        </a>
+                        <a href="https://github.com/lalithadsuresh" target="_blank" rel="noopener noreferrer">
+                            <img src={navIcon2} alt="GitHub Lalith" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/lalithsuresh/" target="_blank" rel="noopener noreferrer">
+                            <img src={navIcon3} alt="LinkedIn Lalith" />
+                        </a>
+                    </div>
                     </span>
                 </Navbar.Collapse>
             </Container>

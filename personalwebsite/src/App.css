@@ -339,8 +339,12 @@ span.logo a img:hover {
   position: relative;
   overflow: hidden;
   border-radius: 8px;
+  height: 185px; 
+  width: 300px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .proj-imgbx img {
@@ -467,13 +471,51 @@ span.logo a img:hover {
 }
 
 
-
-
-
-
 .txt rotate > .wrap {
   border-right: 0.8em solid grey;
 }
+
+
+.social-icon-journal-love img {
+  margin-top: 15px;
+  width: 5%; 
+  height: auto; 
+}
+
+.social-icon-journal-love-2 img {
+  margin-left: 50px;
+  margin-top: -66px; 
+}
+
+.social-icon-algo-art img {
+  margin-top: 15px;
+  width: 5%; 
+  height: auto; 
+}
+
+.social-icon-algo-art-2 img {
+  margin-left: 50px;
+  margin-top: -66px; 
+}
+
+.social-icon-algo-art-3 img {
+  margin-left: 100px;
+  margin-top: -115px; 
+}
+
+.paragraph-image {
+  display: flex;
+  align-items: center; 
+}
+
+.paragraph-image img {
+  margin-right: 20px; 
+  width: 300px; 
+  border-radius: 10% black;
+  border: 1px solid black; 
+  height: auto; 
+}
+
 
 .App {
   text-align: center;

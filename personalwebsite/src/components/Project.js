@@ -10,6 +10,7 @@ import bannerBackground from '../assets/img/bannerbackground.png';
 import SpiralAlg from '../assets/img/alg-COVER.gif';
 import BuddyMap2 from '../assets/img/buddymap.png';
 import Quest2 from '../assets/img/quest.png';
+import {useEffect} from "react"
 
 
 
@@ -18,49 +19,33 @@ import Quest2 from '../assets/img/quest.png';
 
 export const Projects = () => {
 
-    <div>
-      <img 
-          src={JournalLove2}  
-          style={{ width: '100%', height: 'auto', maxWidth: '100%' }} 
-          alt="Journal Love" 
-        />
-
-      <img 
-        src={SpiralAlg}  
-        style={{ width: '50px', height: 'auto', maxWidth: '1972px' }} 
-        alt="Another Image Description" 
-      />
-    </div>
-
-
-    
 
     
   const projects = [
     {
       title: 'Journal Love',
-      description: 'Design and Dev',
+      description: 'Design and Development',
       imgUrl: JournalLove2,
       category: 'second',  // Category for "Development"
       modalContent: <JournalLove />  
     },
     {
       title: 'Spiral Algorithm - AlgoArt Platform',
-      description: 'Design and Dev',
+      description: 'Design and Development',
       imgUrl: SpiralAlg,
       category: 'second',  // Category for "Development"
       modalContent: <AlgoArt />  
     },
     {
         title: 'BuddyMap',
-        description: 'Design and Dev',
+        description: 'Design and Development',
         imgUrl: BuddyMap2,
         category: 'second',  // Category for "Development"
         modalContent: <BuddyMap />
       },
       {
         title: 'QUEST',
-        description: 'Design and Dev',
+        description: 'Design',
         imgUrl: Quest2,
         category: 'third',  // Category for "Design"
         modalContent: <Quest />

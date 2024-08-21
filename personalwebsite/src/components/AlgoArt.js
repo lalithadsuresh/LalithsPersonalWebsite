@@ -13,7 +13,7 @@ export const AlgoArt = () => {
         <p>
           AlgoArt is a platform designed to help computer scientists and artists
           create Algorithmically Generated Art. During the summer of 2024 as a research
-          assistant at Swarthmore College, I decided to create my own drawing algorithm that is 
+          assistant at Swarthmore College, I created my own drawing algorithm that is 
           currently live on the platform. The Spiral Algorithm generated a dataset of over 400
           images and has received over 1770 reviews. The algorithm is drawn using 
           JavaScript and the Canvas HTML5 API.

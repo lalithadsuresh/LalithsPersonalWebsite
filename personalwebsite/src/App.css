@@ -475,24 +475,14 @@ span.logo a img:hover {
   border-right: 0.8em solid grey;
 }
 
-
-.social-icon-journal-love img {
-  margin-top: 15px;
-  width: 5%; 
-  height: auto; 
-}
-
-.social-icon-journal-love-2 img {
-  margin-left: 50px;
-  margin-top: -66px; 
-}
-
+.social-icon-journal-love img,
 .social-icon-algo-art img {
   margin-top: 15px;
   width: 5%; 
   height: auto; 
 }
 
+.social-icon-journal-love-2 img,
 .social-icon-algo-art-2 img {
   margin-left: 50px;
   margin-top: -66px; 
@@ -503,10 +493,34 @@ span.logo a img:hover {
   margin-top: -115px; 
 }
 
+@media only screen and (max-width: 414px) {
+  .social-icon-algo-art-3 img {
+    display: block;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+
+  .social-icon-journal-love-2 img,
+  .social-icon-algo-art-2 img {
+    display: block;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+}
+
 .paragraph-image {
   display: flex;
   align-items: center; 
 }
+
+
+.paragraph-image {
+  display: flex;
+  align-items: center; 
+}
+
+
 
 .paragraph-image img {
   margin-right: 20px; 
@@ -516,6 +530,74 @@ span.logo a img:hover {
   height: auto; 
 }
 
+.about-page {
+  padding: 60px 0;
+  background-color: #f8f9fa; /* Light background color */
+}
+
+.about-section {
+  background-color: white; 
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  width: 80%; 
+  max-width: 1000px; 
+  height: auto; 
+  margin: 20px auto; 
+  padding: 20px; 
+}
+
+.about-section img {
+  float: left;
+  margin-right: 20px;  
+  margin-left: 0;
+  margin-top: 0;
+  width: 25%; 
+  max-width: 250px; 
+  height: auto;
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.about-title {
+  font-size: 2.5rem; 
+  font-weight: bold;
+  color: #343a40; 
+  margin-bottom: 20px;
+  
+  
+}
+
+.about-role {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #6c757d; 
+  margin-bottom: 20px;
+}
+
+.about-description {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #495057; 
+  margin-bottom: 30px;
+}
+
+.fun-facts-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #343a40;
+  margin-bottom: 15px;
+}
+
+.fun-facts-list {
+  list-style-type: disc;
+  margin-left: 20px; 
+  font-size: 1rem;
+  color: #495057;
+}
+
+.fun-facts-list li {
+  margin-bottom: 10px; 
+}
 
 .App {
   text-align: center;

@@ -2,6 +2,7 @@ import {useState, useEffect} from "react";
 import {Container, Row, Col} from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../assets/img/header-img.svg";
+import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 
 
@@ -10,7 +11,7 @@ export const Banner = () => {
 
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ["Software Developer", "UI/UX Designer"];
+    const toRotate = ["I am a Full Stack Developer, Product Designer, and Artist"];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const period = 2000;
@@ -23,7 +24,7 @@ export const Banner = () => {
         return () => { 
             clearInterval(ticker);
         };
-    }, [text]); // The dependency array is correct here
+    }, [text]); 
 
     const tick = () => {
         let i = loopNum % toRotate.length;
@@ -38,14 +39,6 @@ export const Banner = () => {
             setDelta(prevDelta => prevDelta / 2);
         }
 
-        if (!isDeleting && updatedText === fullText) {
-            setIsDeleting(true);
-            setDelta(period);
-        } else if (isDeleting && updatedText === '') {
-            setIsDeleting(false); // Set to false to start typing the next word
-            setLoopNum(loopNum + 1);
-            setDelta(500);
-        }
     }
 
 
@@ -56,11 +49,25 @@ export const Banner = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col xs = {12} md={6} xl={7}>
-                        <span classsName="tagline">
-                            Hi! My name is Lalith.
+                        <span className="tagline">
+                            Hi! My name is Lalith. 
                         </span>
-                        <h1>{'I am a Full Stack Developer, Product Designer, and Artist'}<span className = "wrap"></span></h1>
-                        <p> {text} </p>
+                        <h1>{text} 
+                        <span className="cursor-style-wrapper">
+                                <Cursor cursorStyle="|" />
+                                </span>
+                             <span className = "wrap"></span>
+                        <span className="whole">
+                        <div class="characters-container">
+                            <div class="character" style="background-image: url('./assets/img/lala1.svg');"></div>
+                            <div class="character" style="background-image: url('./assets/img/lala2.svg');"></div>
+                            <div class="character" style="background-image: url('./assets/img/lala3.svg');"></div>
+                            <div class="character" style="background-image: url('./assets/img/lala4.svg');"></div>
+                        </div>
+                        </span>
+                        </h1>
+
+                        
                     </Col>
                     <Col xs={12} md={6} xl={5}>
     

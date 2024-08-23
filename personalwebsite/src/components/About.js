@@ -11,7 +11,7 @@ export const About = () => {
                         <img src = {personalpicture} />
                         <h1 className="about-title">About</h1>
                         <p className="about-role">
-                            Full Stack Developer / UI+UX Designer
+                            Full Stack Developer / Product Designer
                         </p>
                         <p className="about-description">
                             I've always been drawn to storytelling, beginning with writing and acting—both of which I still do.

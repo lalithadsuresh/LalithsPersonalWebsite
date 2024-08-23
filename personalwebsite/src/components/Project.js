@@ -10,10 +10,6 @@ import bannerBackground from '../assets/img/bannerbackground.png';
 import SpiralAlg from '../assets/img/alg-COVER.gif';
 import BuddyMap2 from '../assets/img/buddymap.png';
 import Quest2 from '../assets/img/quest.png';
-import {useEffect} from "react"
-
-
-
 
 
 
@@ -59,18 +55,17 @@ export const Projects = () => {
         <Row>
           <Col>
             <h2>Projects</h2>
-            <p>This is my project</p>
             
-            <Tab.Container id="project-tabs" defaultActiveKey="first">
+            <Tab.Container className = "containertab" id="project-tabs" defaultActiveKey="first">
               <Nav variant="pills">
                 <Nav.Item>
-                  <Nav.Link eventKey="first">All Projects</Nav.Link>
+                  <Nav.Link className="navchoices" eventKey="first">All Projects</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">Development</Nav.Link>
+                  <Nav.Link className="navchoices" eventKey="second">Development</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="third">Design</Nav.Link>
+                  <Nav.Link className="navchoices" eventKey="third">Design</Nav.Link>
                 </Nav.Item>
               </Nav>
               <Tab.Content>

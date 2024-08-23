@@ -18,27 +18,23 @@ export const AlgoArt = () => {
           images and has received over 1770 reviews. The algorithm is drawn using 
           JavaScript and the Canvas HTML5 API.
           <br />
-          Tech Stack: Node.js, JavaScript, Canvas HTML5 API
+          <em> Tech Stack: Node.js, JavaScript, Canvas HTML5 API</em>
         </p>
       </div>
   
 
-      <div className="social-icon-algo-art">
-          <a href="https://github.com/Algorithmically-Generated-Artwork/Drawing-Program">
-            <img src={navIcon2}/>
-          </a>
-        <div className="social-icon-algo-art-2">
-          <a href="https://algoart.org/gallery.html?algid=alg12">
-            <img src={linkicon}/>
-          </a>
-          <div className="social-icon-algo-art-3">
-          <a href="https://michaelwehar.wordpress.com/2024/08/02/algoart-10-spirals/">
-            <img src={linkicon}/>
-          </a>
+      <div className="social-icon-container">
+        <a href="https://github.com/Algorithmically-Generated-Artwork/Drawing-Program">
+          <img src={navIcon2} className="social-icon-algoart" alt="GitHub Link"/>
+        </a>
+        <a href="https://algoart.org/gallery.html?algid=alg12">
+          <img src={linkicon} className="social-icon-algoart" alt="AlgoArt Gallery"/>
+        </a>
+        <a href="https://michaelwehar.wordpress.com/2024/08/02/algoart-10-spirals/">
+          <img src={linkicon} className="social-icon-algoart" alt="AlgoArt Spirals"/>
+        </a>
+      </div>
 
-        </div>
-        </div>
-        </div>
         
     </Container>
   );

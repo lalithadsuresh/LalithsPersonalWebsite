@@ -5,8 +5,9 @@ export const BuddyMap = () => {
     <div>
       <p>BuddyMap is an application designed to help users 
         make personalized weekend plans. COMING SOON.
+        <br/>
 
-        Tech Stack: Google Maps API, Javascript, React
+       <em> Tech Stack: Google Maps API, Javascript, React</em> 
       </p>
     </div>
   );

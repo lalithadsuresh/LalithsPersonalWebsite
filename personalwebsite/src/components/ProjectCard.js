@@ -6,6 +6,8 @@ import Button from 'react-bootstrap/Button';
 export const ProjectCard = ({ title, description, imgUrl, modalContent }) => {
   const [modalShow, setModalShow] = useState(false);
 
+  
+
   return (
     <>
       <Col sm={6} md={4}>
@@ -25,8 +27,8 @@ export const ProjectCard = ({ title, description, imgUrl, modalContent }) => {
         aria-labelledby="contained-modal-title-vcenter"
         centered
       >
-        <Modal.Header closeButton>
-          <Modal.Title id="contained-modal-title-vcenter">
+        <Modal.Header class = "modal-header" closeButton>
+          <Modal.Title class = "modal-text" id="contained-modal-title-vcenter">
             {title}
           </Modal.Title>
         </Modal.Header>
@@ -34,7 +36,7 @@ export const ProjectCard = ({ title, description, imgUrl, modalContent }) => {
           {modalContent}
         </Modal.Body>
         <Modal.Footer>
-          <Button onClick={() => setModalShow(false)}>Close</Button>
+          <Button className="button-modal" onClick={() => setModalShow(false)}>Close</Button>
         </Modal.Footer>
       </Modal>
     </>

@@ -1,6 +1,6 @@
 # Lalith Suresh's Personal Website
 
-Welcome to the repository for my personal website. This website showcases my portfolio, skills, projects, and more about my professional journey. You can visit the live website [here](https://lalithadsuresh.github.io/LalithsPersonalWebsite/).
+Welcome to the repository for my personal website!!. You can visit the live website [here](https://lalithadsuresh.github.io/LalithsPersonalWebsite/).
 
 
 ## Features

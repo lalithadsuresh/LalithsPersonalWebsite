@@ -1,74 +1,63 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Lalith Suresh's Personal Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the repository for my personal website. This website showcases my portfolio, skills, projects, and more about my professional journey. You can visit the live website [here](https://lalithadsuresh.github.io/LalithsPersonalWebsite/).
 
-## Available Scripts
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Responsive Design:** Optimized for desktop, tablet, and mobile devices.
+- **Interactive Elements:** SVG animations, user-friendly buttons, and modals.
+- **Portfolio Showcase:** Display of selected projects with descriptions and links.
+- **Contact Information:** Easy access to my professional contact details.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React:** For building dynamic user interface.
+- **JavaScript:** Core functionality and logic implementation. 
+- **Figma:** For designing the layout and visual elements.
+- **HTML & CSS:** For structuring the content and styling the website.
+- **SVG Animations:** For creating animations.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+If you would like to run this website locally, follow these steps:
 
-### `npm run build`
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/lalithadsuresh/LalithsPersonalWebsite.git
+    ```
+2. **Navigate into the project directory:**
+    ```bash
+    cd LalithsPersonalWebsite
+    ```
+3. **Install dependencies:**
+    ```bash
+    npm install
+    ```
+4. **Start the development server:**
+    ```bash
+    npm start
+    ```
+5. **Open your browser and visit:**
+    ```
+    http://localhost:3000
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Once the website is running locally or accessed via GitHub Pages, you can explore the various sections, including:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Home:** An introduction and overview of who I am.
+- **About Me:** A detailed background of my professional journey.
+- **Projects:** A showcase of my key projects with links to the source code and live demos.
+- **Contact:** Ways to get in touch with me.
 
-### `npm run eject`
+## Contact
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+If you have any questions or would like to connect, feel free to reach out:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Email:** [lalithadityasureshkumar@gmail.com](mailto:lalithadityasureshkumar@gmail.com)
+- **LinkedIn:** [linkedin.com/in/lalithsuresh](https://www.linkedin.com/in/lalithsuresh/)
+- **GitHub:** [github.com/lalithadsuresh](https://github.com/lalithadsuresh)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# LalithsPersonalWebsite
->>>>>>> dfc611b8591e4a3617a75a147597e999fe29d334
+Thank you for visiting my personal website!

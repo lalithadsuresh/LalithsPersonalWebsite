@@ -42,6 +42,11 @@ export const Quest = () => {
         </ul>
       </section>
 
+      <section className="solution-section" style={{ textAlign: 'left', width: '90%', marginBottom: '20px' }}>
+        <h2>Solution</h2>
+        <p>To solve the problem of superficial swiping and a lack of meaningful conversation, “Quest” proposes a blind dating app that matches users based on scribbles, favorite topics, and short introductions. Users do not view images of their match until after three messages have been exchanged by each person. This ensures that connections are formed based on personality and shared interests, encouraging deeper and more genuine interactions before physical appearance becomes a factor.</p>
+      </section>
+
             {/* User Flow Section */}
             <section className="userflow-section" style={{ width: '90%', textAlign: 'center', marginBottom: '20px' }}>
         <h3>User Flow</h3>
@@ -54,29 +59,6 @@ export const Quest = () => {
         </div>
       </section>
 
-      {/* Sketch Section */}
-      <section className="sketch-section" style={{ width: '90%', textAlign: 'center', marginBottom: '20px' }}>
-        <h3>Initial Sketch</h3>
-        <div className="quest-picture-container">
-          <img className="quest-picture"
-            src={sketch}
-            style={{ width: '60%', height: 'auto' }}
-            alt="Initial Sketch"
-          />
-        </div>
-      </section>
-
-      {/* Final Sketch Section */}
-      <section className="final-sketch-section" style={{ width: '90%', textAlign: 'center', marginBottom: '20px' }}>
-        <h3>Final Sketch</h3>
-        <div className="quest-picture-container">
-          <img className="quest-picture"
-            src={sketch2}
-            style={{ width: '60%', height: 'auto' }}
-            alt="Final Sketch"
-          />
-        </div>
-      </section>
 
 
       {/* Sign-Up Process */}
@@ -91,9 +73,12 @@ export const Quest = () => {
         </div>
       </section>
 
-      {/* Hook Feature */}
+          {/* Hook Feature */}
       <section className="hook-section" style={{ width: '90%', textAlign: 'center', marginBottom: '20px' }}>
         <h3>Hook Feature</h3>
+        <p style={{ textAlign: 'left', width: '90%', margin: '10px auto' }}>
+          When creating their profile, users are encouraged to write short hooks—laid-back and funny introductions, comments, or jokes that showcase a user's personality. The brevity of these statements ensures quick user engagement, making it easier for matches to start meaningful conversations in a fun and lighthearted way.
+        </p>
         <div className="quest-picture-container">
           <img className="quest-picture"
             src={Hook}
@@ -106,6 +91,9 @@ export const Quest = () => {
       {/* Favorites Feature */}
       <section className="favorites-section" style={{ width: '90%', textAlign: 'center', marginBottom: '20px' }}>
         <h3>Favorites Feature</h3>
+        <p style={{ textAlign: 'left', width: '90%', margin: '10px auto' }}>
+          Users can choose their favorite topics to discuss in order to attract like-minded matches. By discussing similar favorite hobbies and passions, users are more likely to reach out to send the first text.
+        </p>
         <div className="quest-picture-container">
           <img className="quest-picture"
             src={Favorites}
@@ -118,6 +106,9 @@ export const Quest = () => {
       {/* Swiping and Liking Interface */}
       <section className="swipe-likes-section" style={{ width: '90%', textAlign: 'center', marginBottom: '20px' }}>
         <h3>Swiping and Liking Interface</h3>
+        <p style={{ textAlign: 'left', width: '90%', margin: '10px auto' }}>
+          The "hook" fills the majority of the card. This offers viewers creative personality-based matching as opposed to appearance-based interfaces. Users also must send a message in order to send a like to ensure meaningless matching is avoided. 
+        </p>
         <div className="quest-picture-container">
           <img className="quest-picture"
             src={SwipeLikes}
@@ -128,8 +119,15 @@ export const Quest = () => {
       </section>
 
       {/* Card Movement Video */}
-      <section className="card-movement-section" style={{ width: '90%', textAlign: 'center', marginBottom: '20px' }}>
+      <section className="card-movement-section" style={{ width: '40%', textAlign: 'center', marginBottom: '20px' }}>
         <h3>Card Movement Interaction</h3>
+        <p style={{ textAlign: 'left', width: '90%', margin: '10px auto' }}>
+          When viewing a card, the user scrolls the card in place. At the end of the card sequence, there are two key components: 
+          <br />
+          1.) Personality Drawings: While no sketch was created for this feature, it proposes that users draw a prompt-based sketch to ease any nervousness about matching. 
+          <br />
+          2.) Image Reveal: The two boxes at the end contain images of the user, which are only revealed after six messages have been exchanged between the user and their match.
+        </p>
         <div className="quest-video-container">
           <video className="quest-video" controls style={{ width: '70%' }}>
             <source src={CardMov} type="video/mp4" />
@@ -137,6 +135,33 @@ export const Quest = () => {
           </video>
         </div>
       </section>
+
+      {/* Problem Section */}
+      <section className="pain-section" style={{ textAlign: 'left', width: '90%' }}>
+        <h2>Pain Points</h2>
+        <ul>
+          <li><strong>Delayed Image Reveal:</strong> While the concept of revealing images after six messages encourages deeper conversations, some users may find the delay frustrating, particularly those who prefer knowing what their match looks like early on. This could result in a slower adoption for users who are more visually oriented.</li>
+                    
+          <li><strong>Limited Initial Information:</strong> Without seeing profile images or getting much information upfront, users might feel hesitant to invest time in conversations, especially if they’ve had previous negative experiences on dating apps.</li>
+          
+          <li><strong>User Fatigue:</strong> The requirement to exchange six messages before images are revealed might deter users who are used to more immediate feedback or visual cues, potentially leading to frustration or drop-off in engagement.</li>
+        </ul>
+      </section>
+
+      <section className="future-section" style={{ textAlign: 'left', width: '90%' }}>
+        <h2>Future Considerations</h2>
+        <ul>
+          <li><strong>Implementing a cleaner designed platform for Quest:</strong> Focus on refining the UI to enhance user experience and make interactions smoother.</li>
+          
+          <li><strong>Adding new prompts/features for the card:</strong> Updating and expanding prompts to keep the app engaging for users.</li>
+          
+          <li><strong>Designing messages, profile editing, and settings:</strong> Create intuitive interfaces for messaging, profile customization, and app settings to improve user control and personalization.</li>
+        </ul>
+      </section>
+
+
+
+
     </div>
   );
 };

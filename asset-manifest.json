@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/LalithsPersonalWebsite/static/css/main.1a1245d4.css",
-    "main.js": "/LalithsPersonalWebsite/static/js/main.50b293b1.js",
+    "main.js": "/LalithsPersonalWebsite/static/js/main.6782929e.js",
     "static/js/453.55c3503c.chunk.js": "/LalithsPersonalWebsite/static/js/453.55c3503c.chunk.js",
     "static/media/personal-picture.jpg": "/LalithsPersonalWebsite/static/media/personal-picture.d983f64ee246107dd859.jpg",
     "static/media/buddymap.png": "/LalithsPersonalWebsite/static/media/buddymap.c4e72480914140b09430.png",
@@ -30,11 +30,11 @@
     "static/media/header-img.svg": "/LalithsPersonalWebsite/static/media/header-img.af21eec1134eaa71e55e7aaaa547e1bc.svg",
     "static/media/nav-icon1.svg": "/LalithsPersonalWebsite/static/media/nav-icon1.cccc3f918582fda2b626471aae0bf7d4.svg",
     "main.1a1245d4.css.map": "/LalithsPersonalWebsite/static/css/main.1a1245d4.css.map",
-    "main.50b293b1.js.map": "/LalithsPersonalWebsite/static/js/main.50b293b1.js.map",
+    "main.6782929e.js.map": "/LalithsPersonalWebsite/static/js/main.6782929e.js.map",
     "453.55c3503c.chunk.js.map": "/LalithsPersonalWebsite/static/js/453.55c3503c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a1245d4.css",
-    "static/js/main.50b293b1.js"
+    "static/js/main.6782929e.js"
   ]
 }

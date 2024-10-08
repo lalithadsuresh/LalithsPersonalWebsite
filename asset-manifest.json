@@ -1,15 +1,21 @@
 {
   "files": {
     "main.css": "/LalithsPersonalWebsite/static/css/main.1a1245d4.css",
-    "main.js": "/LalithsPersonalWebsite/static/js/main.6a444082.js",
+    "main.js": "/LalithsPersonalWebsite/static/js/main.e8edb94a.js",
     "static/js/453.55c3503c.chunk.js": "/LalithsPersonalWebsite/static/js/453.55c3503c.chunk.js",
     "static/media/personal-picture.jpg": "/LalithsPersonalWebsite/static/media/personal-picture.d983f64ee246107dd859.jpg",
     "static/media/buddymap.png": "/LalithsPersonalWebsite/static/media/buddymap.c4e72480914140b09430.png",
     "static/media/algo-art.png": "/LalithsPersonalWebsite/static/media/algo-art.d754c9bb7040bb64284e.png",
     "static/media/alg-COVER.gif": "/LalithsPersonalWebsite/static/media/alg-COVER.d981e96b10fe10130cac.gif",
+    "static/media/card.mov": "/LalithsPersonalWebsite/static/media/card.c6c753651db0a3e46169.mov",
     "static/media/quest.png": "/LalithsPersonalWebsite/static/media/quest.97d6267ef1281c2162fd.png",
+    "static/media/signup.png": "/LalithsPersonalWebsite/static/media/signup.7f6b2304268566be955a.png",
+    "static/media/swipelikes.png": "/LalithsPersonalWebsite/static/media/swipelikes.5c222d8af6b90c5e4a8d.png",
     "static/media/UX-Mockup.png": "/LalithsPersonalWebsite/static/media/UX-Mockup.2310a8b0919ec16e376d.png",
+    "static/media/hook.png": "/LalithsPersonalWebsite/static/media/hook.c7bd935ec0064f848fef.png",
     "static/media/journal-love.png": "/LalithsPersonalWebsite/static/media/journal-love.c479ae17e697f45ad096.png",
+    "static/media/cardoutline.png": "/LalithsPersonalWebsite/static/media/cardoutline.5afc7fb696f9b155a68d.png",
+    "static/media/favorites.png": "/LalithsPersonalWebsite/static/media/favorites.997b448f8b5fb395b798.png",
     "static/media/logo.jpeg": "/LalithsPersonalWebsite/static/media/logo.f24852129b988695c27f.jpeg",
     "static/media/Atkinson-Hyperlegible-Regular-102.ttf": "/LalithsPersonalWebsite/static/media/Atkinson-Hyperlegible-Regular-102.0f70189614a5d1405a86.ttf",
     "static/media/lala3.svg": "/LalithsPersonalWebsite/static/media/lala3.89a51f1327d6403abf65.svg",
@@ -22,11 +28,11 @@
     "static/media/header-img.svg": "/LalithsPersonalWebsite/static/media/header-img.af21eec1134eaa71e55e7aaaa547e1bc.svg",
     "static/media/nav-icon1.svg": "/LalithsPersonalWebsite/static/media/nav-icon1.cccc3f918582fda2b626471aae0bf7d4.svg",
     "main.1a1245d4.css.map": "/LalithsPersonalWebsite/static/css/main.1a1245d4.css.map",
-    "main.6a444082.js.map": "/LalithsPersonalWebsite/static/js/main.6a444082.js.map",
+    "main.e8edb94a.js.map": "/LalithsPersonalWebsite/static/js/main.e8edb94a.js.map",
     "453.55c3503c.chunk.js.map": "/LalithsPersonalWebsite/static/js/453.55c3503c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a1245d4.css",
-    "static/js/main.6a444082.js"
+    "static/js/main.e8edb94a.js"
   ]
 }

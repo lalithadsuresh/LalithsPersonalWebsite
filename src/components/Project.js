@@ -9,7 +9,7 @@ import JournalLove2 from '../assets/img/journal-love.png';
 import bannerBackground from '../assets/img/bannerbackground.png';
 import SpiralAlg from '../assets/img/alg-COVER.gif';
 import BuddyMap2 from '../assets/img/buddymap.png';
-import Quest2 from '../assets/img/quest.png';
+import Quest2 from '../assets/img/swipelikes.png';
 
 
 

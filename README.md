@@ -1,6 +1,6 @@
 
 
-Welcome to the repository for my personal website!!. You can visit the live website [here](https://lalithadsuresh.github.io/LalithsPersonalWebsite/).
+Welcome to the repository for my personal website!! You can visit the live website [here](https://lalithadsuresh.github.io/LalithsPersonalWebsite/).
 
 
 ## Features

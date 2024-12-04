@@ -12,15 +12,6 @@ Welcome to the repository for my personal website!! You can visit the live websi
 - **SVG Animations:** For creating animations.
 
 
-## Usage
-
-Once the website is running locally or accessed via GitHub Pages, you can explore the various sections, including:
-
-- **Home:** An introduction and overview of who I am.
-- **About Me:** A detailed background of my professional journey.
-- **Projects:** A showcase of my key projects with links to the source code and live demos.
-- **Contact:** Ways to get in touch with me.
-
 ## Contact
 
 If you have any questions or would like to connect, feel free to reach out:

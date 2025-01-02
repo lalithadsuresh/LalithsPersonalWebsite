@@ -198,16 +198,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon::after {
 
 span.navbar-text .social-icon a img,
 span.logo a img {
-  width: 20px; /* Smaller size for the images */
-  height: 20px; /* Maintain the aspect ratio by setting the height */
+  width: 20px; 
+  height: 20px; 
   margin: 0 5px;
   transition: transform 0.3s ease-in-out;
 }
 
-/* Optional: Add hover effect if desired */
+
 span.navbar-text .social-icon a img:hover,
 span.logo a img:hover {
-  transform: scale(1.1); /* Slightly enlarge on hover */
+  transform: scale(1.1); 
 }
 
 .navbar-brand img {
@@ -221,18 +221,23 @@ span.logo a img:hover {
   transform: scale(1.1);
 }
 
-
 .banner {
-  margin-top: 0;
   padding: 180px 0 100px 0;
+  margin-left: 400px;
+  margin-bottom: 0px;
 
 }
 
+.whole {
+  margin-bottom: 500px;
+}
+
+
+
 .small-header-img {
-  width: 150px; /* Adjust width as needed */
-  height: auto; /* Maintains aspect ratio */
-  /* You can also use max-width or max-height if needed */
-  max-width: 100%; /* Ensures the image doesn't exceed its container's width */
+  width: 150px; 
+  height: auto; 
+  max-width: 100%; 
 }
   
 .banner .tagline{
@@ -517,9 +522,9 @@ span.logo a img:hover {
 }
 
 .social-icon-container img {
-  width: 30px; /* Adjust the size of the icons as needed */
+  width: 30px; 
   height: auto; 
-  vertical-align: middle; /* Keeps the icons aligned properly */
+  vertical-align: middle;
 }
 
 .social-icon-algoart {
@@ -567,7 +572,7 @@ span.logo a img:hover {
 
 .about-page {
   padding: 60px 0;
-  background-color: #f8f9fa; /* Light background color */
+  background-color: #f8f9fa; 
 }
 
 .about-section {
@@ -636,11 +641,13 @@ span.logo a img:hover {
 
 
 .modal-header {
-  background-color: whitesmoke;
-  padding: 20px;
-  border-bottom: 2px solid black;
+  margin-top: 20px; 
 }
 
+.modal-text {
+  font-size: 1.5rem; 
+  text-align: center; 
+}
 
 .modal-text {
   color:black;
@@ -689,21 +696,70 @@ span.logo a img:hover {
   animation: pulse 2s infinite;
 }
 
+
 .characters-container {
   display: flex;
-  justify-content: space-between; /* Adjust this to control spacing */
-  align-items: center; /* Aligns them vertically in the center */
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
+  margin: 20px; 
+  gap: 5px; 
 }
 
 .character {
-  width: 100px; /* Adjust as needed */
-  height: 100px; /* Adjust as needed */
-  background-size: cover;
+  aspect-ratio: 1 / 1; 
+  background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
+  margin: -50px; 
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    animation-delay: 5s;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    animation-delay: 5s;
+    transform: translateY(0);
+  }
+}
 
+.fade-in {
+  animation: fadeIn 3s ease-in-out;
+}
 
+.album-wall-image {
+  display: inline-block; 
+  width: 500px; 
+  height: 500x; 
+  overflow: hidden;
+  margin-left: 0px;
+}
+
+.album-wall-image img {
+  width: 100%; 
+  height: auto; 
+  object-fit: cover; 
+}
+
+.character:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.character:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.character:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.character:nth-child(4) {
+  animation-delay: 0.8s;
+}
 
 
 

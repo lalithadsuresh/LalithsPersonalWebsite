@@ -30,7 +30,7 @@ export const AlbumWallGenerator = () => {
         <strong>Use Cases:</strong>
         <br />
         I am currently in the process of cleaning up the backend to ensure I am following best practices before I submit my application 
-        to Spotify to get my API Quota extension approved! Until then, a demo is available on my personal website, so please feel free to check it out!
+        to Spotify to get my API Quota extension approved! Until then, a demo is available below so please feel free to check it out!
       </p>
       
       <div className="social-icon-container">

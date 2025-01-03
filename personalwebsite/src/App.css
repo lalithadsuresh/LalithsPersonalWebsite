@@ -447,6 +447,11 @@ span.logo a img:hover {
 
 }
 
+.center {
+  text-align: center;
+}
+
+
 .footer .logo-img {
   width: 100px; 
   height: auto;
@@ -461,6 +466,11 @@ span.logo a img:hover {
   color: #333; 
 }
 
+.about-section img {
+  width: 200px !important;
+  height: auto !important;
+  object-fit: cover !important;
+}
 
 .about-title {
   font-size: 2.5rem;
@@ -478,7 +488,7 @@ span.logo a img:hover {
 .about-description {
   font-size: 1.1rem;
   line-height: 1.6;
-  margin-bottom: 40px; 
+  margin-bottom: 80px; 
 }
 
 

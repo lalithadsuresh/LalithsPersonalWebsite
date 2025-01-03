@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/LalithsPersonalWebsite/static/css/main.ae4f880e.css",
-    "main.js": "/LalithsPersonalWebsite/static/js/main.006d700f.js",
+    "main.js": "/LalithsPersonalWebsite/static/js/main.1beced80.js",
     "static/js/453.55c3503c.chunk.js": "/LalithsPersonalWebsite/static/js/453.55c3503c.chunk.js",
     "static/media/video2.mov": "/LalithsPersonalWebsite/static/media/video2.1ffcd1747eb2cff79645.mov",
     "static/media/personal-picture.jpg": "/LalithsPersonalWebsite/static/media/personal-picture.d983f64ee246107dd859.jpg",
@@ -29,11 +29,11 @@
     "index.html": "/LalithsPersonalWebsite/index.html",
     "static/media/nav-icon1.svg": "/LalithsPersonalWebsite/static/media/nav-icon1.cccc3f918582fda2b626471aae0bf7d4.svg",
     "main.ae4f880e.css.map": "/LalithsPersonalWebsite/static/css/main.ae4f880e.css.map",
-    "main.006d700f.js.map": "/LalithsPersonalWebsite/static/js/main.006d700f.js.map",
+    "main.1beced80.js.map": "/LalithsPersonalWebsite/static/js/main.1beced80.js.map",
     "453.55c3503c.chunk.js.map": "/LalithsPersonalWebsite/static/js/453.55c3503c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ae4f880e.css",
-    "static/js/main.006d700f.js"
+    "static/js/main.1beced80.js"
   ]
 }

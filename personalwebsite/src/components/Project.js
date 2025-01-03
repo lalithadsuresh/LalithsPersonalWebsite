@@ -17,37 +17,37 @@ export const Projects = () => {
   const projects = [
     {
       title: 'Album Wall Generator',
-      description: 'Development and Inspiration',
+      description: 'Design and Development',
       imgUrl: AlbumWallImg,
-      category: 'second', // Category for "Development"
+      category: 'second', 
       modalContent: <AlbumWallGenerator />
     },
     {
       title: 'Journal Love',
       description: 'Design and Development',
       imgUrl: JournalLove2,
-      category: 'second', // Category for "Development"
+      category: 'second', 
       modalContent: <JournalLove />  
     },
     {
       title: 'Spiral Algorithm - AlgoArt Platform',
       description: 'Design and Development',
       imgUrl: SpiralAlg,
-      category: 'second', // Category for "Development"
+      category: 'second', 
       modalContent: <AlgoArt />  
     },
     {
       title: 'BuddyMap',
       description: 'Design and Development',
       imgUrl: BuddyMap2,
-      category: 'second', // Category for "Development"
+      category: 'second', 
       modalContent: <BuddyMap />
     },
     {
       title: 'QUEST',
       description: 'Design',
       imgUrl: Quest2,
-      category: 'third', // Category for "Design"
+      category: 'third', 
       modalContent: <Quest />
     },
   ];

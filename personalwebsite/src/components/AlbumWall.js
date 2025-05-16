@@ -2,7 +2,7 @@ import React from 'react';
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import linkicon from "../assets/img/linkicon.png";
 import AlbumWallImage from '../assets/img/album2.png';
-import movie2 from '../assets/img/video2.mov';
+import movie2 from '../assets/img/newvideo.mov';
 
 export const AlbumWallGenerator = () => {
   return (
@@ -45,15 +45,21 @@ export const AlbumWallGenerator = () => {
       <strong className = 'center'> Demo:</strong>
 
       <div className="center">
+        
         <video
             src={movie2}
             width={600}
             controls
+            muted
+          
 
         >
             Your browser does not support the video tag.
-            </video>
-        </div>
+            </video> */ 
+            
+            
+        </div>  
+      
 
       <p>
         <strong>If you're curious !</strong>
